@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lab 3 - Coffee Order Form</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>        
+        <h1>Order Coffee Online</h1>
+
+        <form action="https://www.w3schools.com/action_page.php" method="get">
+            <section>
+                <h2>Customer Information</h2>
+                <p>
+                    <label for="name">Customer Name:</label>
+                    <input type="text" id="name" name="customer_name" />
+                </p>
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email_address" />
+                </p>
+            </section>
+            <section>
+                <h2>Drink Options</h2>
+                <p>
+                    <label for="drink">
+                        <span>Coffee Type:</span>
+                    </label>
+                    <select id="drink" name="coffee_type">
+                        <option value="drip">Drip</option>
+                        <option value="pour-over">Pour-Over</option>
+                        <option value="french_press">French Press</option>
+                        <option value="espresso">Espresso</option>
+                        <option value="americano">Americano</option>
+                        <option value="cortado">Cortado</option>
+                        <option value="latte">Latte</option>
+                        <option value="cappucinno">Cappuccino</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <ul>
+                        <li>
+                            <label for="small">Small</label>
+                            <input type="radio" id="small" name="size" value="small" />
+                        </li>
+                        <li>
+                            <label for="medium">Medium</label>
+                            <input type="radio" id="medium" name="size" value="medium" checked />
+                        </li>
+                        <li>
+                            <label for="large">Large</label>
+                            <input type="radio" id="large" name="size" value="large" />
+                        </li>
+                    </ul>                    
+                </fieldset>
+                <fieldset>
+                    <legend>Extras:</legend>
+                    <ul>
+                        <li>
+                            <label for="whip">Whipped Cream</label>
+                            <input type="checkbox" id="whip" name="extras" value="whipped_cream">
+                        </li>
+                        <li>
+                            <label for="shot">Extra Shot</label>
+                            <input type="checkbox" id="shot" name="extras" value="extra_shot">
+                        </li>
+                        <li>
+                            <label for="almond">Almond Milk</label>
+                            <input type="checkbox" id="almond" name="extras" value="almond_milk">
+                        </li>
+                        <li>
+                            <label for="oat">Oat Milk</label>
+                            <input type="checkbox" id="oat" name="extras" value="oat_mlik">
+                        </li>
+                        <li>
+                            <label for="coconut">Coconut Milk</label>
+                            <input type="checkbox" id="coconut" name="extras" value="coconut_milk">
+                        </li>
+                        <li>
+                            <label for="soy">Soy Milk</label>
+                            <input type="checkbox" id="soy" name="extras" value="soy_milk">
+                        </li>
+                        <li>
+                            <label for="cinna">Cinnamon Powder</label>
+                            <input type="checkbox" id="cinna" name="extras" value="cinnamon_powder">
+                        </li>
+                        <li>
+                            <label for="cinnasug">Cinnamon Sugar</label>
+                            <input type="checkbox" id="cinnasug" name="extras" value="cinnamon_sugar">
+                        </li>
+                        <li>
+                            <label for="cocoa">Cocoa Powder</label>
+                            <input type="checkbox" id="cocoa" name="extras" value="cocoa_powder">
+                        </li>
+                    </ul>
+                </fieldset>
+                <p>
+                    <label for="instruct">Special Instructions:</label>
+                    <textarea id="instruct" name="special_instructions"></textarea>
+                </p>
+            </section>
+            <button type="submit">Submit Your Order</button>
+        </form>
+    </body>
+</html>
