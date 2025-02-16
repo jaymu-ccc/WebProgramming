@@ -1,0 +1,39 @@
+body {
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: teal;
+    text-align: center;
+}
+
+p {
+    color: midnightblue;
+    padding: 10px;
+}
+
+ul li::marker {
+    color: teal;
+}
+
+li {
+    color: rebeccapurple;
+}
+
+a {
+    color: blue;
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.styled-box {
+    border: 1px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 15px;
+    position: center;
+}
