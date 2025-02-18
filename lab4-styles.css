@@ -35,5 +35,5 @@ div.styled-box {
     border: 1px solid rebeccapurple;
     background-color: lightgray;
     padding: 15px;
-    position: center;
+    text-align: center;
 }
