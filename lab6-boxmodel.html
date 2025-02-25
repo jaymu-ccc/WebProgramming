@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Box Model Lab</title>
+        <style>
+            .box {
+                width: 500px;
+                height: 100px;
+                border: 5px solid blue;
+                padding: 20px;
+                margin: 20px;
+                box-sizing: border-box;
+                background: lightgray;
+                /* For the box dimensions to remain the same when box-sizing is set to its default value of content-box, the width would have to be set to 450, and the height would have to be set to 50. */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Box Model Lab</h1>
+        <div class="box">
+            <p>This is a demonstration of the CSS Box Model.</p>
+        </div>
+        <div class="box">
+            <p>This is box helps to demonstrate the margin size.</p>
+        </div>
+    </body>
+</html> 
